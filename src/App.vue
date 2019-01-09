@@ -1,4 +1,5 @@
 <template>
+
   <div id="app">
     <img src="./assets/logo.png">
     <router-view/>
@@ -9,6 +10,22 @@
 export default {
   name: 'App'
 }
+
+
+// import PlantillaCV1 from './components/PlantillaCV1'
+
+// export default {
+//   name: 'App',
+//   components: {
+//     PlantillaCV1
+//   },
+//   data () {
+//     return {
+//       //
+//     }
+//   }
+// }
+
 </script>
 
 <style>
@@ -21,3 +38,7 @@ export default {
   margin-top: 60px;
 }
 </style>
+
+
+
+
